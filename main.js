@@ -29,7 +29,6 @@ function createTemplate({X_MAX, Y_MAX, randomPoints, guess, trainedWeights}) {
 				fill="${guessedTeam === -1 ? 'blue' : 'red' }"/>`
 			}
 	    )}
-	    <line x1="0" x2="${X_MAX}" y1="0" y2="${Y_MAX}" stroke="purple" />
 	  </svg>
 	`;
 }
